@@ -512,7 +512,10 @@ reason
   }
   100% {
     opacity: 1;
-    transform: translateX(5%);
+    transform: translateX(100%);
+    @media (max-width: 900px) {
+      transform: translateX(5%);
+    }
   }
 }
 .reason__img {

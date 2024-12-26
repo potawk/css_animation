@@ -512,7 +512,11 @@ reason
 	}
 	100%{
 		opacity: 1;
+		transform: translateX(100%);
+
+		@include breakpoint (tablet){
 		transform: translateX(5%);
+		}
 	}
 }
 
